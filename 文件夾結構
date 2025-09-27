@@ -1,0 +1,7 @@
+JinDouCoin/
+│
+├── contracts/
+│   └── JinDouCoin.sol
+├── README.md
+├── LICENSE
+└── package.json
