@@ -1,0 +1,22 @@
+
+---
+
+## 5️⃣ package.json（選填，用於 Node.js + Hardhat 開發）
+
+```json
+{
+  "name": "JinDouCoin",
+  "version": "1.0.0",
+  "description": "Open source BSC token JinDouCoin (JD)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network bsc"
+  },
+  "author": "YourName",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.18.0",
+    "@openzeppelin/contracts": "^4.9.3"
+  }
+}
